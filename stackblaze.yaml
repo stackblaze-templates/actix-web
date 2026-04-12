@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: actix-web
+    runtime: docker
+    plan: starter
+    autoDeploy: false
